@@ -4,9 +4,9 @@ module github.com/cri-o/cri-o
 
 require (
 	github.com/BurntSushi/toml v0.3.1
-	github.com/Microsoft/go-winio v0.4.17-0.20210211115548-6eac466e5fa3
+	github.com/Microsoft/go-winio v0.4.17
 	github.com/blang/semver v3.5.1+incompatible
-	github.com/containerd/containerd v1.5.0-beta.4
+	github.com/containerd/containerd v1.5.0
 	github.com/containerd/ttrpc v1.0.2
 	github.com/containernetworking/cni v0.8.1
 	github.com/containernetworking/plugins v0.9.1
@@ -14,7 +14,7 @@ require (
 	github.com/containers/common v0.35.4
 	github.com/containers/conmon v2.0.20+incompatible
 	github.com/containers/image/v5 v5.10.5
-	github.com/containers/ocicrypt v1.1.0
+	github.com/containers/ocicrypt v1.1.1
 	github.com/containers/podman/v3 v3.1.0
 	github.com/containers/storage v1.28.1
 	github.com/coreos/go-systemd/v22 v22.3.0
@@ -55,10 +55,10 @@ require (
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 	golang.org/x/sys v0.0.0-20210324051608-47abb6519492
 	google.golang.org/grpc v1.36.1
-	k8s.io/api v0.20.1
-	k8s.io/apimachinery v0.20.5
-	k8s.io/client-go v0.20.1
-	k8s.io/cri-api v0.20.5
+	k8s.io/api v0.20.6
+	k8s.io/apimachinery v0.20.6
+	k8s.io/client-go v0.20.6
+	k8s.io/cri-api v0.20.6
 	k8s.io/klog/v2 v2.8.0
 	k8s.io/kubernetes v1.20.5
 	k8s.io/release v0.7.0
